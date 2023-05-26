@@ -3,7 +3,7 @@
   hosts: localhost
   become: true
   tasks:
-    - name: Install Apache2 if it's not installed
+    - name: Install Apache2 if it's not already installed
       apt:
         name: apache2
         update_cache: yes
