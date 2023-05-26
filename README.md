@@ -15,4 +15,4 @@ There's two command line that i give feel free to use one of them.
    ansible-playbook -i hosts automation.yml --ask-become-pass 
 
    ```
-   # Remember put your ip adresse on line 60 in the script
+   # Remember put your ip adresss on line 60 in the script
